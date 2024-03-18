@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    color: black;
+    border: 1px solid rgb(42, 155, 42);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 25% 50%;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+header menu {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: rgb(42, 155, 42);
+}
+
+#nakup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    height: 800px;
+}
+
+.wrapper {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1600px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+
+    padding: 100px;
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    width: 200px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-3:hover {
+    background-color: #2c974b;
+  }
+
+.velikost {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.velikost select {
+    margin-left: 20px;
+    width: 100px;
+    height: 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cena {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.cena span {
+    font-weight: 500;
+}
+
+#galerie .nadpis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#galerie h2 {
+    font-size: 4em;
+    font-weight: 1000;
+
+}
+
+#galerie {
+    display: grid;
+    place-items: center;
+}
+
+#galerie .img {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
